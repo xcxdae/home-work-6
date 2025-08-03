@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+table {
+  margin: 50px auto;
+  border-collapse: collapse;
+}
+
+td {
+  width: 33%;
+  text-align: center;
+  border: 1px solid black;
+  height: 50px;
+}
+
+.container {
+  width: 90%;
+  height: 80%;
+  min-height: 500px;
+  margin: 0 auto;
+  padding: 25px;
+}
+
+.w90 {
+  width: 90%;
+}
+
+.h200 {
+  height: 200px;
+}
+
+.table-w80 {
+  width: 80%;
+}
+
+.w75 {
+  width: 75%;
+}
+
+.w60 {
+  width: 60%;
+}
+
+.w40 {
+  width: 40%;
+}
+
+.w28 {
+  width: 28%;
+}

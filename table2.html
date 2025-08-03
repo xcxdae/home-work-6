@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Table 2</title>
+</head>
+
+<body>
+
+    <p><a href="table1.html">Таблиця 1</a></p>
+
+    <div class="conteiner">
+        <table class="table-w90">
+            <caption>Таблиця 1</caption>
+            <tr>
+                <td class="w40" colspan="2">1-2</td>
+                <td class="w60">3</td>
+            </tr>
+            <tr>
+                <td class="w28">4<br>Колонка шириной 28%</td>
+                <td colspan="2" rowspan="2">
+
+                    <table class="table-w80">
+                        <caption>Таблиця 2</caption>
+                        <tr>
+                            <td>1</td>
+                            <td rowspan="3">2-5-8</td>
+                            <td rowspan="2" class="h200">3-6</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2" class="h200">4-7</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                        </tr>
+                    </table>
+
+                </td>
+            </tr>
+            <tr>
+                <td class="w28">7</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
